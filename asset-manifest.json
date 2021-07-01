@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/roadmap/static/css/main.f81328f3.chunk.css",
-    "main.js": "/roadmap/static/js/main.292dfc5c.chunk.js",
-    "main.js.map": "/roadmap/static/js/main.292dfc5c.chunk.js.map",
+    "main.css": "/roadmap/static/css/main.622e6f1f.chunk.css",
+    "main.js": "/roadmap/static/js/main.adc56326.chunk.js",
+    "main.js.map": "/roadmap/static/js/main.adc56326.chunk.js.map",
     "runtime-main.js": "/roadmap/static/js/runtime-main.98a8bf15.js",
     "runtime-main.js.map": "/roadmap/static/js/runtime-main.98a8bf15.js.map",
     "static/js/2.7b8afb48.chunk.js": "/roadmap/static/js/2.7b8afb48.chunk.js",
     "static/js/2.7b8afb48.chunk.js.map": "/roadmap/static/js/2.7b8afb48.chunk.js.map",
     "index.html": "/roadmap/index.html",
-    "static/css/main.f81328f3.chunk.css.map": "/roadmap/static/css/main.f81328f3.chunk.css.map",
+    "static/css/main.622e6f1f.chunk.css.map": "/roadmap/static/css/main.622e6f1f.chunk.css.map",
     "static/js/2.7b8afb48.chunk.js.LICENSE.txt": "/roadmap/static/js/2.7b8afb48.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.98a8bf15.js",
     "static/js/2.7b8afb48.chunk.js",
-    "static/css/main.f81328f3.chunk.css",
-    "static/js/main.292dfc5c.chunk.js"
+    "static/css/main.622e6f1f.chunk.css",
+    "static/js/main.adc56326.chunk.js"
   ]
 }
