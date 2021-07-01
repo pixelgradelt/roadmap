@@ -16,17 +16,3 @@ code {
 *, *:before, *:after {
   box-sizing: border-box;
 }
-
-html {
-  --color: green;
-}
-
-body {
-  color: yellow;
-}
-
-p {
-  --color: inherit;
-  color: red;
-  color: var(--color, blue);
-}

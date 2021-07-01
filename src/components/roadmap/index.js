@@ -4,7 +4,6 @@ import tracks from './tasks';
 const Roadmap = ( props ) => {
 	return (
 		<div className="roadmap">
-			<p>Spanac</p>
 			{ tracks.map( track => {
 				return <Track { ...track } />
 			} ) }
