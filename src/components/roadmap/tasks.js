@@ -115,7 +115,7 @@ const tracks = [
 										tasks: [
 											{
 												title: 'PixelgradeLT Records',
-												completed: 0.7,
+												completed: 0.9,
 												description: 'Manage LT packages and LT parts for use in site compositions.',
 											},
 										]
@@ -124,7 +124,7 @@ const tracks = [
 										tasks: [
 											{
 												title: 'PixelgradeLT Retailer',
-												completed: 0.6,
+												completed: 0.7,
 												description: 'Manage LT solutions tied to WooCommerce products for purchase. A suite of solutions make up the basis for a site composition.',
 											},
 										]
@@ -133,7 +133,7 @@ const tracks = [
 										tasks: [
 											{
 												title: 'PixelgradeLT Deck (WP Cloud Deploy)',
-												completed: 0.2,
+												completed: 0.1,
 												description: 'Manage the web servers and the WordPress installations.',
 											},
 										]
@@ -142,7 +142,7 @@ const tracks = [
 										tasks: [
 											{
 												title: 'PixelgradeLT Conductor',
-												completed: 0.1,
+												completed: 0.7,
 												description: 'A WordPress plugin installed on each LT site to handle the integration with the rest of the ecosystem.',
 											},
 										]
@@ -151,7 +151,7 @@ const tracks = [
 										tasks: [
 											{
 												title: 'Skeleton plugin for PixelgradeLT Parts',
-												completed: 0.1,
+												completed: 0.8,
 												description: 'A starter WordPress plugin for building the custom logic attached to each LT part.',
 											},
 										]
