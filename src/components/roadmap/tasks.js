@@ -100,7 +100,7 @@ const tracks = [
 	{
 		tasks: [
 			{
-				title: 'The Platform',
+				title: 'The Platform - MVP',
 				description: 'You don’t have to download software, pay for hosting, purchase and configure extra plugin licenses, or manage a web server. You can instead focus on creating the content, and we will handle the rest!',
 				tracks: [
 					{
