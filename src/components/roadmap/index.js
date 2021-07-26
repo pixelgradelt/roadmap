@@ -76,8 +76,10 @@ const Task = ( task ) => {
 		width: `${ completion * 100 }%`,
 	};
 
+	let className = `task ${ completion === 1 ? 'task--completed' : '' }`;
+
 	return (
-		<div className="task" style={ wrapStyle }>
+		<div className={ className } style={ wrapStyle }>
 			<div className="task__fill" style={ fillStyle }></div>
 			{ ( title || description ) && <div className="task__text">
 				{ title && <div className="task__title">{ title }</div> }
