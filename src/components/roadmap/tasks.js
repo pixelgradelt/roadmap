@@ -8,53 +8,23 @@ const tracks = [
 						tasks: [
 							{
 								title: 'Color System',
-								length: 15,
 								tracks: [
 									{ tasks: [ { title: 'Pixelgrade Care v1.7.15', completed: 1, }, ] },
-									{ tasks: [ { title: 'Rosa 2 v1.12.0', completed: 0.8, }, ] },
-									{ tasks: [ { title: 'Nova Blocks v1.12.0', completed: 0.8, }, ] },
-									{ tasks: [ { title: 'Style Manager v2.0.0', completed: 0.9, } ] },
+									{ tasks: [ { title: 'Rosa 2 v1.12.0', completed: 1, }, ] },
+									{ tasks: [ { title: 'Nova Blocks v1.12.0', completed: 1, }, ] },
+									{ tasks: [ { title: 'Style Manager v2.0.0', completed: 1, } ] },
 								]
 							}, {
-								title: 'Create a Universal Theme',
-								length: 5,
-								tracks: [
-									{
-										tasks: [ { description: 'Set a name for the universal theme (eg. Pixelgrade LT Theme)' } ]
-									},
-									{
-										tasks: [ { description: 'Set a name for theme designs/variations (eg. Rosa2 or Rosa LT)' } ]
-									},
-									{
-										tasks: [ { description: 'Adjust the licensing system to change the availability of the Starter Content based on the license purchased (eg. for Rosa LT license, provide only the Rosa LT starter content)' } ]
-									},
-								]
-							}, {
-								title: 'Create Starter Content for Other Niches',
-								completed: 0.2,
+								title: 'Color System Improvements',
 								length: 10,
 								tracks: [
-									{
-										tasks: [
-											{
-												title: 'Magazine (Felt LT)',
-												tracks: [
-													{ tasks: [ { title: 'Posts Slideshow block', completed: 1 } ] },
-													{ tasks: [ { title: 'Posts Carousel block', completed: 1 } ] },
-													{ tasks: [ { title: 'Sidecar block', completed: 1 } ] },
-													{ tasks: [ { title: 'Starter content', completed: 0.1 } ] },
-												]
-											}
-										]
-									},
-									{ tasks: [ { title: 'Food Blog (Julia)' } ] },
-									{ tasks: [ { title: 'Restaurant Alt (Osteria)' } ] },
-									{ tasks: [ { title: 'Travel Blog (Vasco)' } ] },
+									{ tasks: [ { title: 'Relative Color Signal', completed: 0.4 } ] },
+									{ tasks: [ { title: 'Customize Generated Palettes', completed: 0.1 } ] },
 								]
 							}, {
 								title: 'Release Nova Blocks 2.0',
 								completed: 0.2,
-								length: 10,
+								length: 15,
 								tracks: [
 									{
 										tasks: [
@@ -75,8 +45,6 @@ const tracks = [
 													{ tasks: [ { title: 'Posts Collection', completed: 0.7 } ] },
 													{ tasks: [ { title: 'Cards Collection', completed: 0.7 } ] },
 												]
-											}, {
-												description: 'If needed, remove old blocks from codebase in Nova Blocks 2.0'
 											}
 										]
 									},
@@ -84,11 +52,52 @@ const tracks = [
 										tasks: [
 											{
 												description: 'Integrate components to core blocks (eg. Color Signal component to Group block)',
-												completed: 0.3
+												completed: 0.9,
+												tracks: [
+													{ tasks: [ { title: 'List', completed: 1 } ] },
+													{ tasks: [ { title: 'Group', completed: 1 } ] },
+													{ tasks: [ { title: 'To Be Determined' } ] },
+												]
 											}
 										]
 									},
 									{ tasks: [ { description: 'Extend new blocks for other use-cases (eg. Projects Collection)' } ] },
+								]
+							}, {
+								title: 'Create Starter Content for Other Niches',
+								completed: 0.2,
+								length: 10,
+								tracks: [
+									{
+										tasks: [
+											{
+												title: 'Magazine (Felt LT)',
+												tracks: [
+													{ tasks: [ { title: 'Posts Slideshow block', completed: 0.9 } ] },
+													{ tasks: [ { title: 'Posts Carousel block', completed: 0.9 } ] },
+													{ tasks: [ { title: 'Sidecar block', completed: 1 } ] },
+													{ tasks: [ { title: 'Starter content', completed: 0.1 } ] },
+												]
+											}
+										]
+									},
+									{ tasks: [ { title: 'Food Blog (Julia)' } ] },
+									{ tasks: [ { title: 'Restaurant Alt (Osteria)' } ] },
+									{ tasks: [ { title: 'Travel Blog (Vasco)' } ] },
+								]
+							}, {
+								title: 'Create a Universal Theme',
+								length: 5,
+								tracks: [
+									{
+										tasks: [ { description: 'Set a name for the universal theme (eg. Pixelgrade LT Theme)' } ]
+									},
+									{
+										tasks: [ { description: 'Set a name for theme designs/variations (eg. Rosa2 or Rosa LT)' } ]
+									},
+									{
+										tasks: [ { description: 'Adjust the licensing system to change the availability of the Starter Content based on the license purchased (eg. for Rosa LT license, provide only the Rosa LT starter content)' } ]
+									},
 								]
 							}
 						],
