@@ -22,6 +22,27 @@ const tracks = [
 									{ tasks: [ { title: 'Customize Generated Palettes', completed: 0.1 } ] },
 								]
 							}, {
+								description: 'Integrate components to core blocks (eg. Color Signal component to Group block)',
+								completed: 0.9,
+								tracks: [ {
+									tasks: [ {
+										title: 'Color Signal',
+										tracks: [
+											{ tasks: [ { title: 'List', completed: 1 } ] },
+											{ tasks: [ { title: 'Group', completed: 1 } ] },
+											{ tasks: [ { title: 'To Be Determined' } ] },
+										]
+									} ]
+								}, {
+									tasks: [ {
+										title: 'Spacing',
+										tracks: [
+											{ tasks: [ { title: 'Group', completed: 0.9 } ] },
+											{ tasks: [ { title: 'To Be Determined' } ] },
+										]
+									} ]
+								} ]
+							}, {
 								title: 'Release Nova Blocks 2.0',
 								completed: 0.2,
 								length: 15,
@@ -44,19 +65,6 @@ const tracks = [
 													{ tasks: [ { title: 'Slideshow', completed: 0.8 } ] },
 													{ tasks: [ { title: 'Posts Collection', completed: 0.7 } ] },
 													{ tasks: [ { title: 'Cards Collection', completed: 0.7 } ] },
-												]
-											}
-										]
-									},
-									{
-										tasks: [
-											{
-												description: 'Integrate components to core blocks (eg. Color Signal component to Group block)',
-												completed: 0.9,
-												tracks: [
-													{ tasks: [ { title: 'List', completed: 1 } ] },
-													{ tasks: [ { title: 'Group', completed: 1 } ] },
-													{ tasks: [ { title: 'To Be Determined' } ] },
 												]
 											}
 										]
