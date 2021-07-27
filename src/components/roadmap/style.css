@@ -45,6 +45,19 @@
     --title-font-weight: 700;
 }
 
+.task--completed {
+    position: relative;
+}
+
+.task--completed:after {
+    content: "\2713";
+    position: absolute;
+    top: 0.5em;
+    right: 0.5em;
+    font-weight: bold;
+    mix-blend-mode: soft-light;
+}
+
 .task .task {
     --empty-color: var(--color-2);
     --fill-color: var(--color-3);
@@ -70,7 +83,7 @@
 
 .task {
     position: relative;
-    overflow: hidden;
+    /*overflow: hidden;*/
     padding: var(--spacing) calc( var(--spacing) * 2 );
     flex: 1 0 auto;
 
