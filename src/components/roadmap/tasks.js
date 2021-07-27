@@ -101,7 +101,7 @@ const tracks = [
 		tasks: [
 			{
 				title: 'The Platform - MVP',
-				description: 'You don’t have to download software, pay for hosting, purchase and configure extra plugin licenses, or manage a web server. You can instead focus on creating the content, and we will handle the rest!',
+				description: 'You don\'t have to download software, pay for hosting, purchase and configure extra plugin licenses, or manage a web server. You can instead focus on creating the content, and we will handle the rest!',
 				tracks: [
 					{
 						tasks: [
@@ -274,7 +274,7 @@ const tracks = [
 												description: 'A WordPress plugin installed on each LT site to handle the integration with the rest of the ecosystem.',
 												tracks: [
 													{ tasks: [ { title: 'LT Records integration', completed: 1 } ] },
-													{ tasks: [ { title: 'Manage the composition plugins and themes, from inside the WP installation.', completed: 0.1 } ] },
+													{ tasks: [ { title: 'Manage the composition plugins and themes, from inside the WP installation.', completed: 0.9 } ] },
 													{ tasks: [ { title: 'Define and enforce user permissions', completed: 0.5 } ] },
 													{ tasks: [ { title: 'Define and enforce WP dashboard behaviors', completed: 0.1 } ] },
 													{ tasks: [ { title: 'Github integration', completed: 0.1 } ] },
@@ -310,7 +310,7 @@ const tracks = [
 										tasks: [
 											{
 												title: 'PixelgradeLT WPSite Starter',
-												completed: 0.8,
+												completed: 0.9,
 												description: 'A starter Git repo based on Roots Bedrock. Each new site will use this as a template for a new Git repo.',
 											},
 										]
