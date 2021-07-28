@@ -265,7 +265,7 @@ const tracks = [
 													{ tasks: [ { title: 'LT Packages', completed: 1 } ] },
 													{ tasks: [ { title: 'LT Parts', completed: 1 } ] },
 													{ tasks: [ { title: 'LT Retailer integration', completed: 0.9 } ] },
-													{ tasks: [ { title: 'LT Conductor integration', completed: 0.8 } ] },
+													{ tasks: [ { title: 'LT Conductor integration', completed: 0.9 } ] },
 												]
 											},
 										]
@@ -292,7 +292,7 @@ const tracks = [
 												tracks: [
 													{ tasks: [ { title: 'LT Records integration', completed: 1 } ] },
 													{ tasks: [ { title: 'Manage the composition plugins and themes, from inside the WP installation.', completed: 0.9 } ] },
-													{ tasks: [ { title: 'Define and enforce user permissions', completed: 0.5 } ] },
+													{ tasks: [ { title: 'Define and enforce user permissions', completed: 0.7 } ] },
 													{ tasks: [ { title: 'Define and enforce WP dashboard behaviors', completed: 0.1 } ] },
 													{ tasks: [ { title: 'Github integration', completed: 0.1 } ] },
 												]
@@ -318,7 +318,7 @@ const tracks = [
 										tasks: [
 											{
 												title: 'Skeleton plugin for PixelgradeLT Parts',
-												completed: 0.8,
+												completed: 1.0,
 												description: 'A starter WordPress plugin for building the custom logic attached to each LT part.',
 											},
 										]
@@ -327,7 +327,7 @@ const tracks = [
 										tasks: [
 											{
 												title: 'PixelgradeLT WPSite Starter',
-												completed: 0.9,
+												completed: 1.0,
 												description: 'A starter Git repo based on Roots Bedrock. Each new site will use this as a template for a new Git repo.',
 											},
 										]
