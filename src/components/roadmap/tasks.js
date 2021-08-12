@@ -259,13 +259,13 @@ const tracks = [
 										tasks: [
 											{
 												title: 'PixelgradeLT Records',
-												completed: 0.9,
+												completed: 1,
 												description: 'Manage LT packages and LT parts for use in site compositions.',
 												tracks: [
 													{ tasks: [ { title: 'LT Packages', completed: 1 } ] },
 													{ tasks: [ { title: 'LT Parts', completed: 1 } ] },
-													{ tasks: [ { title: 'LT Retailer integration', completed: 0.9 } ] },
-													{ tasks: [ { title: 'LT Conductor integration', completed: 0.9 } ] },
+													{ tasks: [ { title: 'LT Retailer integration', completed: 1 } ] },
+													{ tasks: [ { title: 'LT Conductor integration', completed: 1 } ] },
 												]
 											},
 										]
@@ -291,10 +291,10 @@ const tracks = [
 												description: 'A WordPress plugin installed on each LT site to handle the integration with the rest of the ecosystem.',
 												tracks: [
 													{ tasks: [ { title: 'LT Records integration', completed: 1 } ] },
-													{ tasks: [ { title: 'Manage the composition plugins and themes, from inside the WP installation.', completed: 0.9 } ] },
-													{ tasks: [ { title: 'Define and enforce user permissions', completed: 0.7 } ] },
-													{ tasks: [ { title: 'Define and enforce WP dashboard behaviors', completed: 0.1 } ] },
-													{ tasks: [ { title: 'Github integration', completed: 0.1 } ] },
+													{ tasks: [ { title: 'Manage the composition plugins and themes, from inside the WP installation.', completed: 1 } ] },
+													{ tasks: [ { title: 'Define and enforce user permissions', completed: 1 } ] },
+													{ tasks: [ { title: 'Define and enforce WP dashboard behaviors', completed: 1 } ] },
+													{ tasks: [ { title: 'Github integration', completed: 1 } ] },
 												]
 											},
 										]
