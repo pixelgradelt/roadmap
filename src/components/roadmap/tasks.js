@@ -8,25 +8,22 @@ const tracks = [
 						tasks: [
 							{
 								title: 'Color System',
+								completed: 1,
+								length: 6,
 								tracks: [
-									{ tasks: [ { title: 'Pixelgrade Care v1.7.15', completed: 1, }, ] },
-									{ tasks: [ { title: 'Rosa 2 v1.12.0', completed: 1, }, ] },
-									{ tasks: [ { title: 'Nova Blocks v1.12.0', completed: 1, }, ] },
-									{ tasks: [ { title: 'Style Manager v2.0.0', completed: 1, } ] },
+									{ tasks: [ { title: 'Initial implementation', completed: 1, }, ] },
+									{ tasks: [ { title: 'Color System Improvements', completed: 1, }, ] },
+									{ tasks: [ { title: 'Customize Generated Palettes', completed: 0, }, ] },
 								]
 							}, {
-								title: 'Color System Improvements',
-								length: 10,
-								tracks: [
-									{ tasks: [ { title: 'Relative Color Signal', completed: 0.4 } ] },
-									{ tasks: [ { title: 'Customize Generated Palettes', completed: 0.1 } ] },
-								]
-							}, {
-								description: 'Integrate components to core blocks (eg. Color Signal component to Group block)',
-								completed: 0.9,
+								title: 'Extend core blocks',
+								description: 'Integrate current components to core blocks',
+								completed: 1,
+								length: 4,
 								tracks: [ {
 									tasks: [ {
 										title: 'Color Signal',
+										completed: 1,
 										tracks: [
 											{ tasks: [ { title: 'List', completed: 1 } ] },
 											{ tasks: [ { title: 'Group', completed: 1 } ] },
@@ -36,40 +33,21 @@ const tracks = [
 								}, {
 									tasks: [ {
 										title: 'Spacing',
+										completed: 1,
 										tracks: [
-											{ tasks: [ { title: 'Group', completed: 0.9 } ] },
+											{ tasks: [ { title: 'Group', completed: 1 } ] },
 											{ tasks: [ { title: 'To Be Determined' } ] },
 										]
 									} ]
 								} ]
 							}, {
-								title: 'Release Nova Blocks 2.0',
+								title: 'Supernova Block',
 								completed: 0.2,
-								length: 15,
 								tracks: [
-									{
-										tasks: [
-											{
-												description: 'Determine a strategy for an universal block (eg. Supernova) to handle blocks with overlapping features',
-												completed: 0.7
-											}
-										]
-									},
-									{
-										tasks: [
-											{
-												description: 'Migrate old blocks to the new blocks system (1.13.0)',
-												tracks: [
-													{ tasks: [ { title: 'Media Card', completed: 0.8 } ] },
-													{ tasks: [ { title: 'Hero', completed: 0.8 } ] },
-													{ tasks: [ { title: 'Slideshow', completed: 0.8 } ] },
-													{ tasks: [ { title: 'Posts Collection', completed: 0.7 } ] },
-													{ tasks: [ { title: 'Cards Collection', completed: 0.7 } ] },
-												]
-											}
-										]
-									},
-									{ tasks: [ { description: 'Extend new blocks for other use-cases (eg. Projects Collection)' } ] },
+									{ tasks: [ { description: 'Determine a strategy for an universal block to handle blocks with overlapping features', completed: 0.7 } ] },
+									{ tasks: [ { description: 'Create variations for Supernova that cover functionality of older blocks', completed: 0.7 } ] },
+									{ tasks: [ { description: 'Create migration logic to convert older blocks to Supernova', completed: 0.9 } ] },
+									{ tasks: [ { description: 'Create new blocks for other use-cases (eg. Projects Collection)', completed: 0.1 } ] },
 								]
 							}, {
 								title: 'Create Starter Content for Other Niches',
@@ -98,7 +76,7 @@ const tracks = [
 								length: 5,
 								tracks: [
 									{
-										tasks: [ { description: 'Set a name for the universal theme (eg. Pixelgrade LT Theme)' } ]
+										tasks: [ { title: 'Anima', description: 'Set a name for the universal theme', completed: 1 } ]
 									},
 									{
 										tasks: [ { description: 'Set a name for theme designs/variations (eg. Rosa2 or Rosa LT)' } ]

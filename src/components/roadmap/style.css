@@ -24,13 +24,13 @@
 
 .track {
     display: flex;
-    gap: var(--spacing);
+    gap: 10px;
     align-items: flex-start;
     min-width: 100%;
 }
 
 .task__subtasks {
-    gap: var(--spacing);
+    gap: 10px;
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -84,7 +84,7 @@
 .task {
     position: relative;
     /*overflow: hidden;*/
-    padding: var(--spacing) calc( var(--spacing) * 2 );
+    padding: 10px;
     flex: 1 0 auto;
 
     background: var(--empty-color);
