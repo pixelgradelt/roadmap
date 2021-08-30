@@ -68,7 +68,7 @@ const tracks = [
 										]
 									},
 									{ tasks: [ { title: 'Food Blog (Julia)' } ] },
-									{ tasks: [ { title: 'Restaurant Alt (Osteria)' } ] },
+									{ tasks: [ { title: 'Restaurant (Osteria)' } ] },
 									{ tasks: [ { title: 'Travel Blog (Vasco)' } ] },
 								]
 							}, {
