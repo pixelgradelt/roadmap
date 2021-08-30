@@ -7,4 +7,10 @@ jobs:
   Announce-On-Slack:
     runs-on: ubuntu-latest
     steps:
-      - run: curl -X POST -H 'Content-type: application/json' --data '{"text":"A new update has been deployed on the Pixelgrade LT Roadmap!"}' https://hooks.slack.com/services/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
+      - name: Announce new deploy to roadmap repo on Slack
+        id: slack
+        uses: slackapi/slack-github-action@v1.14.0
+        with:
+          payload: "{\"text\":\"Hello World\"}"
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
