@@ -256,8 +256,8 @@ const tracks = [
 												tracks: [
 													{ tasks: [ { title: 'LT Solutions', completed: 1 } ] },
 													{ tasks: [ { title: 'LT Compositions', completed: 1 } ] },
-													{ tasks: [ { title: 'WooCommerce integration', completed: 0.2 } ] },
-													{ tasks: [ { title: 'User-facing sites and compositions management (minimal)', completed: 0.1 } ] },
+													{ tasks: [ { title: 'WooCommerce integration', completed: 1 } ] },
+													{ tasks: [ { title: 'User-facing sites and compositions management (minimal)', completed: 0.2 } ] },
 												]
 											},
 										]
